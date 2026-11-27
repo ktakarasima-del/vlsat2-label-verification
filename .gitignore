@@ -1,0 +1,10 @@
+*.gz
+*.bz2
+*.xz
+*.cnf
+*.pbp
+__pycache__/
+*.pyc
+.env
+.env.*
+zenodo/REPORT.pdf

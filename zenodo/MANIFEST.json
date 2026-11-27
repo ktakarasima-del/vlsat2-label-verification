@@ -1,0 +1,115 @@
+{
+  "schema": "vlsat2-label-verification-1",
+  "title": "VLSAT-2 Label Verification Summary and Machine-Checked UNSAT Certificates for Three Instances",
+  "author": "Kenshirou Takarashima",
+  "version": "1.0.0",
+  "reference": {
+    "doi": "10.18709/perscido.2021.11.ds357",
+    "official_site": "https://cadp.inria.fr/resources/vlsat/2.html",
+    "table_snapshot_date": "2026-11-14"
+  },
+  "summary": {
+    "total": 100,
+    "published_SAT": 50,
+    "published_UNSAT": 50,
+    "verified_SAT": 47,
+    "verified_UNSAT": 53,
+    "agreements": 97,
+    "disagreements": 3,
+    "bundled_certificates": 3
+  },
+  "checkers": {
+    "VeriPB": {
+      "version": "3.0.2",
+      "upstream": "https://gitlab.com/MIAOresearch/software/pboxide",
+      "options": [
+        "--cnf",
+        "--force-checked-deletion"
+      ]
+    },
+    "CakePB": {
+      "version": "CP2026",
+      "upstream": "https://gitlab.com/MIAOresearch/software/cakepb",
+      "executable": "cake_pb_cnf",
+      "heap_mib": 7296,
+      "stack_mib": 768
+    }
+  },
+  "certificates": [
+    {
+      "benchmark": "vlsat2_67996_13708722",
+      "status": "VERIFIED_UNSAT",
+      "variables": 67996,
+      "clauses": 13708722,
+      "pol_steps": 7633,
+      "source_url": "https://cadp.inria.fr/ftp/benchmarks/vlsat/vlsat2_67996_13708722.cnf.bz2",
+      "cnf_bz2": {
+        "bytes": 58856459,
+        "sha256": "de4459d8d9ef89915c27ff2cbb5c40169bcdcd615a3647f40e8aa8fe583a53be"
+      },
+      "cnf": {
+        "bytes": 215955109,
+        "sha256": "4b8c93ad8ac62716970a4bf2ff385399c264e203d32575b671424c871311877c"
+      },
+      "proof_file": "vlsat2_67996_13708722.pbp.gz",
+      "proof_pbp": {
+        "bytes": 3643829,
+        "sha256": "84008ee4e817283e0a47894a362f1acf6e75e5348efc0fc49852390de3e0751d"
+      },
+      "proof_gzip": {
+        "bytes": 1472575,
+        "sha256": "bf3af5550f112357d99adab64422da163d424c79fa9528485240c50da7a5e42c"
+      }
+    },
+    {
+      "benchmark": "vlsat2_68760_13862744",
+      "status": "VERIFIED_UNSAT",
+      "variables": 68760,
+      "clauses": 13862744,
+      "pol_steps": 7803,
+      "source_url": "https://cadp.inria.fr/ftp/benchmarks/vlsat/vlsat2_68760_13862744.cnf.bz2",
+      "cnf_bz2": {
+        "bytes": 56276323,
+        "sha256": "8d402c75e54ef27dcff1d0001d415300c4bb0b1e18fb2206f2f0d2a7e618eb32"
+      },
+      "cnf": {
+        "bytes": 218414167,
+        "sha256": "32ad6c802bbf8491f9cf6b417166b2f342f1609c966f37ffb03f3a7c5b3ca351"
+      },
+      "proof_file": "vlsat2_68760_13862744.pbp.gz",
+      "proof_pbp": {
+        "bytes": 3767353,
+        "sha256": "c8a7abe51f0c78e21500e0866123629597691fce6799742cc8f709b7dec470f7"
+      },
+      "proof_gzip": {
+        "bytes": 1382186,
+        "sha256": "e10425958e37d9756de36b9989f2dd5570a847dce94e4483ae560134bcf560c6"
+      }
+    },
+    {
+      "benchmark": "vlsat2_69524_14016766",
+      "status": "VERIFIED_UNSAT",
+      "variables": 69524,
+      "clauses": 14016766,
+      "pol_steps": 7975,
+      "source_url": "https://cadp.inria.fr/ftp/benchmarks/vlsat/vlsat2_69524_14016766.cnf.bz2",
+      "cnf_bz2": {
+        "bytes": 60131742,
+        "sha256": "a55531704b00ce3707b469eb379154541ea568fe7edc43d0b2833acc7da2b70d"
+      },
+      "cnf": {
+        "bytes": 220874192,
+        "sha256": "20e32945785656f5721c3cd7aabf325f1fd699833bc8741fdf1c02bb8a5a85dc"
+      },
+      "proof_file": "vlsat2_69524_14016766.pbp.gz",
+      "proof_pbp": {
+        "bytes": 3892048,
+        "sha256": "47707406dd9d8fb85b86ec13da75e804923672419c99ca98e486e30176c929a0"
+      },
+      "proof_gzip": {
+        "bytes": 1567385,
+        "sha256": "fd456450d9f3d6ec6d156f5033087292c442dd99fc5b42a794aabd7cd210e3d1"
+      }
+    }
+  ]
+}

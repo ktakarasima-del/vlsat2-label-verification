@@ -1,0 +1,4 @@
+# Third-party notices
+
+- Pierre Bouvier and Hubert Garavel, The VLSAT-2 Benchmark Suite. [Inria Technical Report 514 (2021)](https://cadp.inria.fr/publications/Bouvier-Garavel-21-c.html). [Source dataset](https://doi.org/10.18709/perscido.2021.11.ds357) and [official distribution](https://cadp.inria.fr/resources/vlsat/2.html). The original benchmark headers specify CC BY 4.0. Obtain the original CNFs from that distribution. This dataset provides a new results table and proof certificates for three reference formulas.
+- [VeriPB 3.0.2](https://gitlab.com/MIAOresearch/software/pboxide) and [CakePB CP2026](https://gitlab.com/MIAOresearch/software/cakepb) are upstream checker projects. Installation and tool attribution are described in the [checker documentation](https://jakobnordstrom.se/docs/publications/DocumentationVeriPBandCakePBforPBcompetition2026.pdf).
